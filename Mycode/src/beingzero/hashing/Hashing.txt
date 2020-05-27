@@ -1,0 +1,38 @@
+
+Hashing: Convert any object to INTEGRAL Value (Hash Value)
+
+Given an array of size N, count how many times a value X occurs in A
+Linear O(n)
+
+Given an array A of N String, count how may times a given String X occurs in A
+
+Time Complexity : LengthOfString * N
+
+Comparing two Integers in O(1) operation
+but Comparing two String of length M and N is O(min(M,N))
+
+IDEA: what if we convery any given string into a integer and doing
+ 		multiple comparison this will make things faster
+
+	Hash(String) = intValue;
+	
+	PROBLEM STATEMENT: (Find in any application)
+	Given a long String of Text T, we are searching for occurance index of pattern P
+	T="thisisagoodStringistotest"
+	P="is"
+	ans=[2,14,17]
+	List<Integer> occuranceIndecise(String T, String P){
+	
+	}
+	when we map and set we are using hashing without implementing it
+	
+	
+	ex: boolean StringCmp(String a, String b){
+	
+	int ha= hash(a);
+	int hb= hash(b)
+	return(ha==hb);
+	
+	}
+	
+	HASH Function:

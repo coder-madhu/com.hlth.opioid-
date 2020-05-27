@@ -1,0 +1,32 @@
+Depth of the tree
+Height of the tree
+Height of the node
+depth of the node
+Preorder-( Root-left-Right)
+inorder- ( left-Root-Right)
+PostOrder- ( left-Right-Root)
+predecessor -immediate previous node of the node in inorder traversal of the binary tree
+Successor-immediate next node of the node in inorder traversal of the binary tree
+
+BT: each node has 0/1/2 child (never more than 2)
+family of the data structure of the BT are BST, Heap Tree, AVL, red black, syntax, tree, huffman coding etc..
+-- used to solve specific prolems
+	huffmancoding
+	heap (Priority Queue)
+	expression parsing
+	
+Strict BT- each node has either 2 or none
+Full BT-  each non leaf nodes has 2 child and all leaf nodes are at same level
+complete BT (all leves are completely filled and except last level and last level keys should be left as possible (no right node if unfilled))
+
+
+Array- storage no zero index used
+	x= parent
+	left = 2x
+	right= 2x+1
+	
+Linked List
+
+Root
+LeftSubTree
+RightSub Tree
